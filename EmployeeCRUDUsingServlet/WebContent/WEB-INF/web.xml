@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+	
+	<!-- <servlet>
+		<servlet-name>save</servlet-name>
+		<servlet-class>employeeServletCrud.SaveServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>save</servlet-name>
+		<url-pattern>/save</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>delete</servlet-name>
+		<servlet-class>employeeServletCrud.DeleteServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>delete</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>update</servlet-name>
+		<servlet-class>employeeServletCrud.EditServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>update</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>showList</servlet-name>
+		<servlet-class>employeeServletCrud.ShowListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>showList</servlet-name>
+		<url-pattern>/showList</url-pattern>
+	</servlet-mapping>
+	 -->
+	
+</web-app>

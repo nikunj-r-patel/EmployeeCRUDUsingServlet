@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Form</title>
+<style type="text/css">
+.container {
+	width: 30%;
+	border: 2px solid blue;
+	border-radius: 20px;
+	padding: 20px;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+h1 {
+	border-bottom: 1px solid black;
+} 
+#empForm table tr td input {
+	border:none;
+	font-size: 20px;
+	border-radius: 15px;
+	box-shadow: -5px 3px 5px skyblue;
+}
+.inputLable {
+	border-radius: 15px;	
+	text-align: right;
+}
+#countryName {
+	font-size: 20px;
+	border:none;
+	border-radius: 15px;
+	box-shadow: -5px 3px 5px skyblue;
+}
+button {
+	margin-top:20px;
+	background-color: lightblue;
+	font-size: 20px;
+	padding:10px;
+	border:none;
+	border-radius: 15px;
+	box-shadow: -5px 3px 5px black;
+}
+a{
+text-decoration: none;
+}
+.outOfContainer{
+	border:none;
+	border-radius: 15px;
+	box-shadow: 3px 3px 3px black;
+	font-size: 20px;
+	padding:10px;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	outline: none;	
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Add New Employee</h1>
+		<form id="empForm"action="SaveServlate" method="post">
+			<table>
+				<tr>
+					<td class="inputLable">Enter Employee Name:</td>
+					<td><input type="text" name="empName"
+						placeholder="enter name " required="required"></td>
+				</tr>
+				<tr>
+					<td class="inputLable">Enter Employee Email:</td>
+					<td><input type="email" name="empEmail"
+						placeholder="enter email " required="required"></td>
+				</tr>
+				<tr>
+					<td class="inputLable">Enter Employee Password:</td>
+					<td><input type="password" name="empPassword"
+						placeholder="enter password " required="required"></td>
+				</tr>
+				<tr>
+					<td class="inputLable">Select Employee Country:</td>
+					<td><select id="countryName" name="empCountry">
+							<option value="India">India</option>
+							<option value="UK">UK</option>
+							<option value="USA">USA</option>
+							<option value="Other">Other</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<button type="submit">Register</button>&nbsp;&nbsp;
+						<button type="reset">Reset</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+		<br>
+		<div class="outOfContainer">
+		<a href="ShowListServlet">See All Employees</a>
+		</div>	
+	</div>
+</body>
+</html>
